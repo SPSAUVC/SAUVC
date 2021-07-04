@@ -1,5 +1,14 @@
 #include <Servo.h>
 
+/*
+  Take Note: 
+  Due to the nature of the "black" ESC being used for remote controlled toys, 
+  it requires a kick-start to get it working properly. I found that in order 
+  to do that you have to engage the throttle stick (Which we didn't have) to 
+  the bottom position. If you would like to read more into what happen when 
+  I played with the "black" ESC please read Eugene's Journal from Week 3 - 4.
+  */
+
 Servo motor1, motor2, motor3, motor4, motor5, motor6;
 void setup() {
 
