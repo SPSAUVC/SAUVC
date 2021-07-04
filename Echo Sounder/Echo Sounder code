@@ -1,0 +1,14 @@
+import serial
+
+neo = serial.Serial(
+    port='COM7', #Use device manager to check which port RS232 is connected
+    baudrate=9600,
+    parity=serial.PARITY_NONE,
+    stopbits=serial.STOPBITS_ONE,
+    bytesize=serial.EIGHTBITS,
+    timeout=1
+)
+
+while True:
+    dataline = neo.readline();
+    print (dataline)
