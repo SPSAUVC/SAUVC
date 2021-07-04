@@ -1,0 +1,60 @@
+#include <Servo.h>
+
+Servo motor1, motor2, motor3, motor4, motor5, motor6;
+void setup() {
+
+  //Kick start for ESC
+  motor1.attach(3);
+  motor2.attach(5);
+  motor3.attach(6);
+  motor4.attach(9);
+  motor5.attach(10);
+  motor6.attach(11);
+
+  delay(3000);
+  
+  motor1.write(30);
+  motor2.write(30);
+  motor3.write(30);
+  motor4.write(30);
+  motor5.write(30);
+  motor6.write(30);
+  
+  delay(3000);
+}
+
+void loop() {
+  while(1){
+    //Forward
+    motor1.write(80);
+    motor2.write(80);
+    motor3.write(100); 
+    motor4.write(80); //Double check this again, might be due to wiring. Should be due to wiring.
+   
+    //Reverse
+    motor1.write(100);
+    motor2.write(100);
+    motor3.write(80);
+    motor4.write(100);
+    
+    //Left 
+    motor1.write(100);
+    motor2.write(80);
+    motor3.write(100);
+    motor4.write(80);
+
+    //Right
+    motor1.write(80);
+    motor2.write(100);
+    motor3.write(80);
+    motor4.write(100);
+    
+    //Float
+    motor5.write(60);
+    motor6.write(60);
+    
+    //Sink
+    motor5.write(100);
+    motor6.write(100);
+    
+}
