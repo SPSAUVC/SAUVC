@@ -5,7 +5,8 @@
   Due to the nature of the "black" ESC being used for remote controlled toys, 
   it requires a kick-start to get it working properly. I found that in order 
   to do that you have to engage the throttle stick (Which we didn't have) to 
-  the bottom position. If you would like to read more into what happen when 
+  the bottom position, to replicate the trottle stick being engage at a bottom position,
+  we had to "...write(30)". If you would like to read more into what happen when 
   I played with the "black" ESC please read Eugene's Journal from Week 3 - 4.
   */
 
