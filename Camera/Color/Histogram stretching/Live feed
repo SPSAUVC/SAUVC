@@ -1,1 +1,37 @@
+import cv2
+import numpy as np
+from matplotlib import pyplot as plt
+
+#Change this directory according to where you save your video.
+vid = cv2.VideoCapture(r'C:\Users\Eugene\Downloads\video2.MP4') 
+
+
+#Use this link or any other similar links to convert from YouTube to MP4 videos.
+https://mp4s.org/en1/youtube-to-mp4/
+
+if (vid.isOpened() == False):
+    print("Error opening video stream or file")
+    
+while (vid.isOpened()):
+    ret, frame = vid.read()
+    if ret == True:
+  
+        red, green, blue = cv2.split(frame)
+        red = cv2.equalizeHist(red)
+        green = cv2.equalizeHist(green)
+        blue = cv2.equalizeHist(blue)
+        final = cv2.merge([red, green, blue])
+    
+        cv2.imshow('Before', final)
+        
+        if cv2.waitKey(25) & 0xFF == ord('b'):
+            break
+        
+    else:
+        break
+    
+vid.release()
+cv2.destroyAllWindows()
+
+
 
