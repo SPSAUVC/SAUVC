@@ -1,1 +1,29 @@
+import serial #Encapsulates the access for the serial port.
+import pyvesc #Allow to communicaet with VESC motor controller.
+from getch import getch #Getch = getChar, does single-char input.
 
+'''
+Notes:
+    min RPM = 900
+    max RPM = 9000
+    +ve, forward
+    -ve, backward
+    
+Code description:
+    When code is run(Ctrl + T), holding 'd' will move the motor forward,
+    like wise holding 'a' will move the motor backwards.
+'''
+
+ser = serial.Serial('/dev/ttyACM0') #ACM0, USB port 0
+def motorspinning(setRPM):
+    my_msg = pyvesc.SetRPM(setRPM)
+    my_packet = pyvesc.encode(my_msg)
+    ser.write(my_packet)
+
+while(True):
+    ch = getch() #Wait for keypress
+    ch = ch.lower() #change all keypress to lower case
+    if(ch == 'a'):
+        motorspinning(5000) #Forward
+    elif (ch == 'd'):
+        motorspinning(-5000)
