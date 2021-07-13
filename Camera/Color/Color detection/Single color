@@ -1,43 +1,25 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(0)#0 for webcam, 1 for secondary cams.
+cam  = cv2.VideoCapture(0)
 
 while True:
-        #_ means value returning from a function.
-        _, frame = cap.read()
-        
-        #hsv stands for hue saturation value.
-        #Pass every frame value, captured by camera into function
-        #".cvtColor" and convert from BGR to HSV
-        hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-        
-        #[0,0,0] = allow every color
-        
-        #red = 150,150,0 / 180,255,255
-        #blue = 94,80,2 / 120,255,255
-        #green = 25,52,72 / 102,255,255
-        
-        lower_red = np.array([])
-        upper_red = np.array([])
-        
-        #mask is everything within lower_red and upper_red
-        #mask is either 0 or 1, either within or !within range
-        mask = cv2.inRange(hsv, lower_red, upper_red)
-        
-        
-        res = cv2.bitwise_and(frame, frame, mask = mask)
-        
-        #Show mask, frame and res
-        cv2.imshow('Frame', frame)
-        cv2.imshow('Mask', mask)
-        cv2.imshow('Result', res)
-        
-        #Wait for key to destroy
-        k = cv2.waitKey(5) & 0xFF
-        if k == 27:
-            break
-
+    _, frame = cam.read()
+    
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+    
+    lower_red = np.array([150,150,0])
+    upper_red = np.array([180,255,255])
+    
+    mask = cv2.inRange(hsv, lower_red, upper_red)
+    
+    result = cv2.bitwise_and(frame, frame, mask=mask)
+    
+    cv2.imshow('mask', mask)
+    cv2.imshow('result', result)
+    
+    k = cv2.waitKey(5) & 0xFF
+    if k ==27:
+        break
 cv2.destroyAllWindows()
-#Releases camera.
-cap.release()
+cam.release()
