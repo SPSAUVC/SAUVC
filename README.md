@@ -1,5 +1,12 @@
 # Underwater vehicle project
-Created on: 28 June 2021 by Eugene Ow and team.
+images.githubusercontent.com/86452186/129843899-5cf1c576-200b-43ef-89f8-4b2a26f14764.png)
+Created on: 28 June 2021 by Eugene Ow.
+Contributed by:
+20/21 Semester 1 seniors (Eugene, Terrence, Brandon, Edthan)
+20/21 Semester 2 seniors (Add your name here)
+.
+.
+.
 
 ## Description:
 This GitHub repository is created for our juniors, to allow them to access work from their seniors and to cultivate a culture within SAUVC to always think and plan ahead. 
@@ -13,4 +20,5 @@ RCBot (Research & competition robot) = HUV (Hybrid underwater vehicle)
 ## Others (Reports, Presentation slides, Videos, etc.):
 Since GitHub only allows up to a maximum of 25MB, we can't really include most of our stuff like the 2 videos and the word document, but do head down to this link to view and edit them.
 
-https://drive.google.com/drive/folders/1MYFr3oYZFT8594FtYBQqcVCKXcDlUzxP?usp=sharing
+https://drive.google.com/drive/folders/1MYFr3oYZFT8594FtYBQqcVCKXcDlUzxP?usp=sharing![4ed0a388-94ec-4229-88fc-241d18f35cce](https://user-
+
