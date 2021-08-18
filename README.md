@@ -2,7 +2,8 @@
 Created on: 28 June 2021 by Eugene Ow and team.
 
 ## Description:
-This GitHub repository is created for our juniors, to allow them to access work from their seniors and to cultivate a culture within SAUVC to always think and plan ahead. By the way if you've seen us label anything as "CBot" or "RCBot" do note that they are actually meaning "AUV" and "HUV"
+ This GitHub repository is created for our juniors, to allow them to access work from their seniors and to cultivate a culture within SAUVC to always think and plan ahead. 
+  By the way if you've seen us label anything as "CBot" or "RCBot" do note that they are actually meaning "AUV" and "HUV"
 
 CBot (Competition robot) = AUV (Autonomous underwater vehicle)
 
