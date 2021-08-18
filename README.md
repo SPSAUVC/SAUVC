@@ -25,3 +25,6 @@ Since GitHub only allows up to a maximum of 25MB, we can't really include most o
 
 https://drive.google.com/drive/folders/1MYFr3oYZFT8594FtYBQqcVCKXcDlUzxP?usp=sharing![4ed0a388-94ec-4229-88fc-241d18f35cce](https://user-
 
+## I can't find the files anywhere:
+Hey no worries, if you can't find the files. You should have probably established a messaging group with your seniors by now, if you can't find anything on MSTeams and on here, just ask them. If they don't have it as well, there's a very good chance you'll have to do it out youself.
+
