@@ -1,8 +1,11 @@
 # Underwater vehicle project
-images.githubusercontent.com/86452186/129843899-5cf1c576-200b-43ef-89f8-4b2a26f14764.png)
+![4ed0a388-94ec-4229-88fc-241d18f35cce](https://user-images.githubusercontent.com/86452186/129844078-eaf5c57b-9c1d-4a67-a9a1-ffc7b46543b0.png)
 Created on: 28 June 2021 by Eugene Ow.
+
 Contributed by:
+
 20/21 Semester 1 seniors (Eugene, Terrence, Brandon, Edthan)
+
 20/21 Semester 2 seniors (Add your name here)
 .
 .
