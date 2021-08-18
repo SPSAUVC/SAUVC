@@ -1,1 +1,0 @@
-The 'TPartBack' is of file type '.dwg' meaning that you can't open back in Autodesk Inventor to edit the dimensions, my apologies, but regardless you can still use the file to cut at the laser cutting lab.
