@@ -29,5 +29,6 @@ https://drive.google.com/drive/folders/1MYFr3oYZFT8594FtYBQqcVCKXcDlUzxP?usp=sha
 Hey no worries, if you can't find the files. You should have probably established a messaging group with your seniors by now, if you can't find anything on MSTeams and on here, just ask them. If they don't have it as well, there's a very good chance you'll have to do it out youself.
 
 ##Duplicates:
+
 Incase we've included anything that is duplicated (In GitHub), you should probably use the one in the ".zip" files because those are from MSTeams.
 
